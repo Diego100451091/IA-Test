@@ -1,0 +1,768 @@
+{
+    "AutoML": [
+        {
+            "question": "¿Cuál es el enfoque principal en el que AutoML se basa?",
+            "options": {
+                "a": "Desarrollar hardware para Machine Learning",
+                "b": "Desarrollar software amigable para Machine Learning",
+                "c": "Recolectar grandes cantidades de datos",
+                "d": "Reducir la precisión de los algoritmos"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "Describe 3 beneficios que aporta AutoML.",
+            "options": {
+                "a": "Aumenta errores manuales, reduce tiempos de despliegue, reduce la precisión",
+                "b": "Automatiza procesos, reduce errores manuales, desarrolla algoritmos sin conocimientos de alto nivel",
+                "c": "Aumenta la complejidad, reduce la precisión, acelera la investigación",
+                "d": "Incrementa tiempos de despliegue, automatiza procesos, reduce la precisión"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "Describe las etapas que AutoML automatiza.",
+            "options": {
+                "a": "Preprocesado, ingeniería de características, selección de modelo, optimización de hiperparámetros",
+                "b": "Visualización de datos, evaluación de resultados, implementación del modelo, retroalimentación",
+                "c": "Data augmentation, selección de características, extracción de características, construcción de características",
+                "d": "Aprendizaje no supervisado, clasificación, regresión, clustering"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Describe los 3 tipos de métodos para la selección de características en AutoML.",
+            "options": {
+                "a": "Selección de modelo, extracción de características, selección de variables",
+                "b": "Método de envoltura, método de filtro, método integrado",
+                "c": "Data warping, método de filtro, SMOTE",
+                "d": "Método integrado, data augmentation, selección de modelo"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Qué 2 soluciones propuso Wrong para crear datos adicionales en data augmentation?",
+            "options": {
+                "a": "Random Search, Data warping",
+                "b": "SMOTE, Bayesian Optimization",
+                "c": "Data warping, Gradient-based Optimization",
+                "d": "SMOTE, Data warping"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "¿En optimización de hiperparámetros qué métodos son comúnmente usados en AutoML?",
+            "options": {
+                "a": "Bayesian Optimization, Data warping, Random Search",
+                "b": "Gradient-based Optimization, Grid search, SMOTE",
+                "c": "Grid search, Random Search, Bayesian Optimization",
+                "d": "Random Search, Gradient-based Optimization, Data warping"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Qué relación existe entre AutoML y metodologías de Machine Learning como CRISP-DM?",
+            "options": {
+                "a": "Son competidores en el campo de Machine Learning",
+                "b": "AutoML automatiza procesos de CRISP-DM, no hay relación",
+                "c": "Ambos buscan prevenir fraudes en transacciones",
+                "d": "AutoML utiliza modelos de CRISP-DM como base"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Para qué empleó la empresa PayPal el AutoML?",
+            "options": {
+                "a": "Para desarrollar videojuegos",
+                "b": "Para crear modelos de clasificación",
+                "c": "Para mejorar la eficiencia de su servicio al cliente",
+                "d": "Para la investigación en inteligencia artificial"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Qué herramientas empleó PayPal para realizar su modelo de AutoML de prevención de fraude, y cómo las aplicaron?",
+            "options": {
+                "a": "Usaron Node2Vec para desarrollar modelos de AutoML",
+                "b": "Aplicaron H2O Driverless AI y crearon una base de datos en forma de grafo",
+                "c": "Utilizaron métodos de optimización de hiperparámetros",
+                "d": "No utilizaron herramientas específicas"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cómo benefició a Meredith Corporation el uso de AutoML?",
+            "options": {
+                "a": "Les permitió realizar modelos sin emplear recursos, pero no mejoró la escalabilidad",
+                "b": "No tuvo impacto en la eficiencia de la empresa",
+                "c": "Mejoró la escalabilidad de la solución anterior y permitió expandir el modelo a otras marcas",
+                "d": "Aumentó la complejidad de sus procesos"
+            },
+            "answer": "c"
+        }
+    ],
+    "Vehículos Autónomos": [
+        {
+            "question": "¿Qué 5 requisitos deben cumplir un vehículo autónomo (según el manual Springer Handbook of Robotics)?",
+            "options": {
+                "a": "Información de movimiento, estado del entorno, acceso a fuentes externas, información sobre el conductor y pasajeros, sistema de comunicación interna.",
+                "b": "Sensores de temperatura, control de tracción, sistema de navegación, cámara de respaldo, sistema de entretenimiento.",
+                "c": "Velocidad máxima, consumo de combustible, capacidad de carga, emisiones de gases, dimensiones exteriores.",
+                "d": "Ruedas de repuesto, sistema de frenado ABS, espejos retrovisores, sistema de iluminación, airbags."
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Qué tipos de comunicación externa encontramos en el vehículo autónomo?",
+            "options": {
+                "a": "Vehículo-estructura (V2I), Vehículo-vehículo (V2V), Vehículo-peatón (V2P).",
+                "b": "Vehículo-aire (V2A), Vehículo-mar (V2M), Vehículo-tierra (V2T).",
+                "c": "Vehículo-usuario (V2U), Vehículo-ciudad (V2C), Vehículo-nube (V2N).",
+                "d": "Vehículo-interno (V2IN), Vehículo-externo (V2EX), Vehículo-cibernético (V2CIB)."
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Describe brevemente el proceso cognitivo de un coche autónomo y la fase correspondiente con el proceso de un ser humano",
+            "options": {
+                "a": "Percepción - Razonamiento - Toma de decisiones (humano: Recolección de datos - Uso de sistemas de comunicación - Acciones).",
+                "b": "Percepción - Comunicación - Ejecución (humano: Procesamiento - Interpretación - Respuesta).",
+                "c": "Detección - Procesamiento - Control (humano: Observación - Análisis - Acción).",
+                "d": "Exploración - Evaluación - Actuación (humano: Inspección - Valoración - Intervención)."
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cuáles son los niveles de autonomía que puede presentar un vehículo?",
+            "options": {
+                "a": "3 niveles de autonomía.",
+                "b": "4 niveles de autonomía.",
+                "c": "5 niveles de autonomía.",
+                "d": "6 niveles de autonomía."
+            },
+            "answer": "d"
+        },
+        {
+            "question": "Explique brevemente el Nivel 1 de autonomía.",
+            "options": {
+                "a": "El conductor realiza todas las tareas de conducción.",
+                "b": "Las ayudas automáticas controlan el movimiento lateral o longitudinal, pero no ambos.",
+                "c": "El coche es capaz de conducir sin intervención del conductor en la mayoría de situaciones.",
+                "d": "El coche no requiere intervención del conductor en situaciones extremas."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿En qué consiste el proyecto OpenPilot de la empresa Comma AI?",
+            "options": {
+                "a": "Desarrollar software de entretenimiento para vehículos autónomos.",
+                "b": "Crear dispositivos GPS para mejorar la navegación en vehículos.",
+                "c": "Desarrollar un sistema de conducción autónoma hasta nivel 2.",
+                "d": "Diseñar vehículos autónomos desde cero."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Cuál es el máximo nivel de autonomía de un vehículo?",
+            "options": {
+                "a": "Nivel 3.",
+                "b": "Nivel 4.",
+                "c": "Nivel 5.",
+                "d": "Nivel 6."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Qué tecnología utiliza el software de conducción autónoma OpenPilot?",
+            "options": {
+                "a": "Redes de área local (LAN).",
+                "b": "Aprendizaje automático de redes neuronales.",
+                "c": "Sistemas de posicionamiento global (GPS).",
+                "d": "Sistemas de radar y lidar."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cómo adquiere conocimiento el software de conducción autónoma OpenPilot?",
+            "options": {
+                "a": "A través de la programación manual por ingenieros.",
+                "b": "Mediante la observación de conductores humanos y el aprendizaje automático de redes neuronales.",
+                "c": "Descargando datos de internet.",
+                "d": "A través de la conexión con otros vehículos autónomos."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál es la principal ventaja del proyecto OpenPilot en términos de compatibilidad de vehículos?",
+            "options": {
+                "a": "Solo es compatible con vehículos de lujo.",
+                "b": "Es compatible con más de 250 modelos de coches comerciales.",
+                "c": "Solo es compatible con vehículos eléctricos.",
+                "d": "Solo es compatible con vehículos de fabricación reciente."
+            },
+            "answer": "b"
+        }
+    ],
+    "IA en Medicina": [
+        {
+            "question": "¿Qué es esencial para que los médicos confíen en las recomendaciones de los modelos de IA en medicina?",
+            "options": {
+                "a": "Abundancia de datos",
+                "b": "Interpretabilidad",
+                "c": "Velocidad en el procesamiento",
+                "d": "Actividad constante"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuántas ventajas principales presenta la IA en el diagnóstico de enfermedades?",
+            "options": {
+                "a": "Cuatro",
+                "b": "Cinco",
+                "c": "Seis",
+                "d": "Tres"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál NO es un factor que contribuye a la superioridad en el rendimiento de la IA frente a los médicos?",
+            "options": {
+                "a": "Abundancia de datos",
+                "b": "Velocidad en el procesamiento",
+                "c": "Actividad constante",
+                "d": "Experiencia médica"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "¿Qué logró el estudio sobre el sistema 'DeepGestalt' en el análisis de imágenes faciales y trastornos genéticos?",
+            "options": {
+                "a": "Identificar fenotipos faciales",
+                "b": "Reducir costos",
+                "c": "Monitorear situaciones",
+                "d": "Procesar información rápidamente"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cuál fue la precisión alcanzada por 'DeepGestalt' en la identificación correcta del síndrome en 502 imágenes distintas?",
+            "options": {
+                "a": "91%",
+                "b": "82%",
+                "c": "75%",
+                "d": "96%"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cómo se puede abordar el desafío del consentimiento informado continuo en el desarrollo de la inteligencia artificial en medicina?",
+            "options": {
+                "a": "Implementando un sistema de interpretación",
+                "b": "Estableciendo un proceso de información continua",
+                "c": "Reducción de la opacidad",
+                "d": "Aumentando la velocidad de procesamiento"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál es uno de los factores que contribuyen a la superioridad en el rendimiento de la IA frente a los médicos?",
+            "options": {
+                "a": "Precisión",
+                "b": "Experiencia médica",
+                "c": "Límites de procesamiento",
+                "d": "Cantidad de descanso"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cuál es el objetivo principal de los algoritmos interpretables en el ámbito de la inteligencia artificial en medicina?",
+            "options": {
+                "a": "Incrementar la opacidad",
+                "b": "Facilitar la interpretación",
+                "c": "Eliminar la velocidad en el procesamiento",
+                "d": "Reducir la actividad constante"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuántas imágenes se utilizaron en el estudio de 'DeepGestalt' para evaluar la identificación correcta del síndrome?",
+            "options": {
+                "a": "17,000",
+                "b": "502",
+                "c": "200",
+                "d": "96"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Qué contribuye a que la IA pueda proporcionar un diagnóstico en menos tiempo?",
+            "options": {
+                "a": "Opacidad",
+                "b": "Abundancia de datos",
+                "c": "Experiencia médica",
+                "d": "Limitaciones en el procesamiento"
+            },
+            "answer": "b"
+        }
+    ],
+    "IA & Música": [
+        {
+            "question": "¿En qué ámbitos podemos ver la IA involucrada en la industria musical?",
+            "options": {
+                "a": "Reconocimiento de colores",
+                "b": "Recomendación musical",
+                "c": "Análisis de alimentos",
+                "d": "Estudio geológico"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál es el propósito principal de utilizar la Transformada Rápida de Fourier (FFT) en el análisis de señales en el dominio del tiempo?",
+            "options": {
+                "a": "Descomponer una señal en sus componentes de frecuencia",
+                "b": "Medir la velocidad de una señal",
+                "c": "Analizar la forma física de una señal",
+                "d": "Convertir una señal de audio a texto"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cómo se llaman los elementos que forman la Red de Creencia Profunda (DBN)?",
+            "options": {
+                "a": "Máquinas de Café",
+                "b": "Máquinas Restringidas de Boltzmann (RBM)",
+                "c": "Máquinas de Escribir",
+                "d": "Máquinas de Coser"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuáles son los parámetros de la red neuronal que compone el MuseNet?",
+            "options": {
+                "a": "48 capas, 12 cabezas de atención y 2048 tokens",
+                "b": "72 capas, 24 cabezas de atención y 4096 tokens",
+                "c": "36 capas, 18 cabezas de atención y 1024 tokens",
+                "d": "60 capas, 20 cabezas de atención y 3072 tokens"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuántas capas tiene la red neuronal basada en Space Transformer?",
+            "options": {
+                "a": "48 capas",
+                "b": "72 capas",
+                "c": "36 capas",
+                "d": "60 capas"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Qué función cumple la FFT en el análisis de señales?",
+            "options": {
+                "a": "Descomponer una señal en sus componentes de frecuencia",
+                "b": "Analizar la forma física de una señal",
+                "c": "Medir la velocidad de una señal",
+                "d": "Convertir una señal de video a imágenes"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cuál es uno de los ámbitos principales en los que la IA está involucrada en la industria musical según el texto?",
+            "options": {
+                "a": "Producción de alimentos",
+                "b": "Recomendación musical",
+                "c": "Exploración espacial",
+                "d": "Construcción de edificios"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Qué elementos forman la Red de Creencia Profunda (DBN)?",
+            "options": {
+                "a": "Máquinas de Coser",
+                "b": "Máquinas Restringidas de Boltzmann (RBM)",
+                "c": "Máquinas de Café",
+                "d": "Máquinas de Escribir"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál es el propósito de la FFT en el análisis de señales?",
+            "options": {
+                "a": "Convertir una señal de audio a texto",
+                "b": "Descomponer una señal en sus componentes de frecuencia",
+                "c": "Medir la velocidad de una señal",
+                "d": "Analizar la forma física de una señal"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuántas cabezas de atención tiene la red neuronal basada en Space Transformer?",
+            "options": {
+                "a": "12 cabezas de atención",
+                "b": "24 cabezas de atención",
+                "c": "18 cabezas de atención",
+                "d": "20 cabezas de atención"
+            },
+            "answer": "b"
+        }
+    ],
+    "IA & Robótica": [
+        {
+            "question": "¿Cuáles son los tres principales tipos en los que se pueden clasificar los robots?",
+            "options": {
+                "a": "Manipuladores, Fijos, Estacionarios",
+                "b": "Móviles, Voladores, Híbridos",
+                "c": "Manipuladores, Móviles, Híbridos",
+                "d": "Fijos, Reactivos, Deliberativos"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Cuáles son los principales paradigmas de control en robótica con IA?",
+            "options": {
+                "a": "Jerárquico, Reactivo, Híbrido",
+                "b": "Secuencial, Estímulo-Respuesta, Deliberativo",
+                "c": "Reactivo, Planificado, Híbrido",
+                "d": "Reactividad, Jerarquía, Comportamiento"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cuáles son las principales primitivas robóticas?",
+            "options": {
+                "a": "Sentir, Pensar, Actuar",
+                "b": "Percibir, Planificar, Actuar",
+                "c": "Actuar, Percibir, Planificar",
+                "d": "Planificar, Actuar, Sentir"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuáles son dos de los obstáculos que se encuentran las empresas a la hora del uso de la IA y la robótica?",
+            "options": {
+                "a": "Baja inversión, Incompatibilidad tecnológica",
+                "b": "Resistencia a la innovación, Costos bajos",
+                "c": "La fuerte inversión, Falta de entrenamiento",
+                "d": "Escasa automatización, Alta flexibilidad"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Qué tipo de robots son capaces de desplazarse por el entorno usando mecanismos como ruedas o piernas?",
+            "options": {
+                "a": "Manipuladores",
+                "b": "Móviles",
+                "c": "Híbridos",
+                "d": "Fijos"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál es el paradigma de control basado en una visión introspectiva de la forma de pensar de los humanos?",
+            "options": {
+                "a": "Jerárquico",
+                "b": "Reactivo",
+                "c": "Híbrido",
+                "d": "Secuencial"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "¿Cuál de las siguientes opciones NO es una de las primitivas robóticas?",
+            "options": {
+                "a": "Percibir",
+                "b": "Planificar",
+                "c": "Ejecutar",
+                "d": "Actuar"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Qué implica la primitiva robótica 'Actuar'?",
+            "options": {
+                "a": "Elaborar directivas para alcanzar un objetivo",
+                "b": "Obtener información del entorno",
+                "c": "Realizar acciones para llevar a cabo las directivas",
+                "d": "Desplazarse por el entorno"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Qué problema puede causar la falta de capacidad para responder a cualquier tipo de situación en el uso de la IA y la robótica?",
+            "options": {
+                "a": "Ineficiencia en la inversión",
+                "b": "Problemas en situaciones no contempladas",
+                "c": "Mayor flexibilidad",
+                "d": "Mejor adaptabilidad"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuál es uno de los principales problemas asociados a la fuerte inversión en la IA y la robótica?",
+            "options": {
+                "a": "Rentabilidad garantizada",
+                "b": "Escasez de recursos",
+                "c": "Falta de innovación",
+                "d": "Incompatibilidad tecnológica"
+            },
+            "answer": "a"
+        }
+    ],
+    "Inteligencia de Enjambre": [
+        {
+            "question": "¿Qué es la IA de enjambre?",
+            "options": {
+                "a": "Un paradigma basado en el comportamiento individual de los agentes.",
+                "b": "Un enfoque centralizado para la resolución de problemas.",
+                "c": "Un paradigma basado en la coordinación descentralizada de agentes autónomos.",
+                "d": "Un enfoque estático que no se adapta a cambios en el entorno."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Cuáles son características generales de la IA de enjambre?",
+            "options": {
+                "a": "Jerarquía y centralización.",
+                "b": "Inflexibilidad y falta de respuesta rápida.",
+                "c": "Colaborativa, adaptable, flexible, descentralizada, con capacidad de respuesta, autoorganizada, autocorregible y segura.",
+                "d": "Falta de adaptabilidad y coordinación dinámica."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿En qué se diferencia la Inteligencia de enjambre de las principales técnicas de IA en sistemas expertos?",
+            "options": {
+                "a": "Los sistemas expertos se adaptan dinámicamente al entorno.",
+                "b": "La inteligencia de enjambre se basa en reglas y conocimientos específicos.",
+                "c": "Ambos utilizan generaciones discretas en su funcionamiento.",
+                "d": "La inteligencia de enjambre es colaborativa, mientras que los sistemas expertos no."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿En qué se diferencia la Inteligencia de enjambre de las redes neuronales artificiales (RNA)?",
+            "options": {
+                "a": "Las RNA son colaborativas, mientras que la inteligencia de enjambre se basa en jerarquías.",
+                "b": "La inteligencia de enjambre se caracteriza por la adaptabilidad emergente y la coordinación dinámica, a diferencia de las RNA.",
+                "c": "Ambas son sistemas descentralizados.",
+                "d": "Las RNA son más flexibles que la inteligencia de enjambre."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿En qué se diferencian los algoritmos genéticos de la inteligencia de enjambre?",
+            "options": {
+                "a": "Ambos operan de manera continua y sin interrupciones.",
+                "b": "Los algoritmos genéticos no se basan en la evolución genética.",
+                "c": "La inteligencia de enjambre se caracteriza por la colaboración dinámica con evolución continua, a diferencia de los algoritmos genéticos.",
+                "d": "Los algoritmos genéticos son sistemas descentralizados."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "¿Cómo se diferencia la inteligencia de enjambre del aprendizaje automático (deep learning)?",
+            "options": {
+                "a": "El aprendizaje profundo se basa en la colaboración descentralizada.",
+                "b": "La inteligencia de enjambre se centra en modelos jerárquicos para resolver problemas específicos.",
+                "c": "Ambos se enfocan en resolver problemas enrevesados.",
+                "d": "La inteligencia de enjambre no se adapta a datos nuevos y desconocidos como el aprendizaje automático."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cómo se diferencia la inteligencia de enjambre de los sistemas multiagentes?",
+            "options": {
+                "a": "La coordinación en los sistemas multiagentes es descentralizada.",
+                "b": "La inteligencia de enjambre se basa en la coordinación dirigida por un protocolo.",
+                "c": "Ambos comparten similitudes en la coordinación explícita.",
+                "d": "La inteligencia de enjambre se caracteriza por la coordinación sin supervisión de una entidad central."
+            },
+            "answer": "d"
+        },
+        {
+            "question": "¿Cómo se diferencia la inteligencia de enjambre de la inteligencia convencional?",
+            "options": {
+                "a": "Ambas se basan en un enfoque centralizado.",
+                "b": "La inteligencia convencional se centra en la coordinación descentralizada.",
+                "c": "La inteligencia de enjambre se fundamenta en un único controlador.",
+                "d": "La inteligencia de enjambre se caracteriza por la coordinación descentralizada."
+            },
+            "answer": "d"
+        },
+        {
+            "question": "¿Qué diferencias hay entre el componente cognitivo y el componente social en PSO?",
+            "options": {
+                "a": "Ambos componentes llevan a la partícula hacia la mejor solución del enjambre.",
+                "b": "El componente cognitivo dirige a la partícula hacia la mejor solución individual, mientras que el componente social lo hace hacia la mejor solución del enjambre.",
+                "c": "Ambos componentes se centran en la posición de la mejor solución individual.",
+                "d": "El componente cognitivo no afecta el movimiento de la partícula."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "¿Cuáles son las limitaciones actuales de la IA de enjambre?",
+            "options": {
+                "a": "Los enjambres de robots están totalmente desarrollados y maduros.",
+                "b": "La coordinación descentralizada no presenta problemas en la IA de enjambre.",
+                "c": "La escalabilidad no afecta la complejidad de la coordinación en enjambres.",
+                "d": "Los enjambres de robots aún no están maduros y enfrentan desafíos como la escalabilidad y la necesidad de comunicación intra-enjambre."
+            },
+            "answer": "d"
+        }
+    ],
+    "Deepfakes": [
+        {
+          "question": "¿Qué es VGGFace?",
+          "options": {"a": "Una red neuronal", "b": "Una técnica basada en la red neuronal VGG", "c": "Un tipo de manipulación de imágenes", "d": "Una capa de pérdida perceptual"},
+          "answer": "b"
+        },
+        {
+          "question": "En la detección de manipulaciones, ¿qué son los métodos ciegos?",
+          "options": {"a": "Métodos que no requieren conocimiento previo sobre el origen o historia del medio", "b": "Métodos que necesitan información previa sobre el medio", "c": "Métodos visuales", "d": "Métodos de manipulación"},
+          "answer": "a"
+        },
+        {
+          "question": "¿Cómo se detectan los Deepfakes?",
+          "options": {"a": "Mediante el análisis de colores en las imágenes", "b": "A través de la detección de manipulaciones ciegas", "c": "Usando arquitecturas basadas en GAN", "d": "Con métodos que resaltan fallos en la generación de imágenes"},
+          "answer": "d"
+        },
+        {
+          "question": "¿Qué es una ResNet? ¿Cuáles son sus características clave?",
+          "options": {"a": "Una red de detección de manipulaciones", "b": "Una red neuronal sin capas residuales", "c": "Una red que utiliza valores residuales entre iteraciones", "d": "Una red que solo utiliza la capa SoftMax"},
+          "answer": "c"
+        },
+        {
+          "question": "¿Qué incorpora VGGFace para mejorar el realismo en el movimiento ocular y la consistencia con las caras de entrada?",
+          "options": {"a": "Capas de pérdida adversaria", "b": "Capas de pérdida perceptual", "c": "Capas de manipulación visual", "d": "Capas de detección de manipulaciones"},
+          "answer": "b"
+        },
+        {
+          "question": "¿Cuál es la característica principal de los métodos ciegos en la detección de manipulaciones?",
+          "options": {"a": "Requieren conocimiento previo del medio", "b": "No requieren conocimiento previo sobre el origen o historia del medio", "c": "Son métodos visuales", "d": "Son métodos de manipulación"},
+          "answer": "b"
+        },
+        {
+          "question": "¿En qué se centran los Deepfakes basados en Deep Learning?",
+          "options": {"a": "En la creación de imágenes mediante arquitecturas basadas en GAN", "b": "En la detección de manipulaciones", "c": "En la manipulación de audio", "d": "En la creación de texto falso"},
+          "answer": "a"
+        },
+        {
+          "question": "¿Qué diferencia a una ResNet de otras redes de neuronas?",
+          "options": {"a": "Utiliza solo valores residuales", "b": "No utiliza capas residuales", "c": "Diferencia sus capas en tipos", "d": "No utiliza la capa SoftMax"},
+          "answer": "c"
+        },
+        {
+          "question": "¿Cuál es la función principal de la capa SoftMax en una ResNet?",
+          "options": {"a": "Analizar colores en las imágenes", "b": "Determinar si una imagen es un Deepfake", "c": "Facilitar el análisis de texturas", "d": "Dar la respuesta definitiva de si la imagen es un Deepfake"},
+          "answer": "d"
+        },
+        {
+          "question": "¿Qué tipo de ruido fotoeléctrico específico se utiliza en la detección de fallos en la generación de imágenes con redes neuronales?",
+          "options": {"a": "Ruido visual", "b": "Ruido PRNU", "c": "Ruido de manipulación", "d": "Ruido de identidad"},
+          "answer": "b"
+        }
+      ],      
+    "Generacion de código": [
+        {
+          "question": "¿Cuál es la función de la etapa de entrada en las redes Transformers?",
+          "options": {
+            "a": "Realizar el embedding y positional encoding.",
+            "b": "Utilizar bloques atencionales en el decodificador.",
+            "c": "Aplicar capas lineales en el decodificador.",
+            "d": "Evitar el desvanecimiento de pesos en los codificadores."
+          },
+          "answer": "a"
+        },
+        {
+          "question": "¿Qué hacen los bloques residuales en la etapa de entrada de las redes Transformers?",
+          "options": {
+            "a": "Realizar el embedding y positional encoding.",
+            "b": "Evitar el desvanecimiento de pesos.",
+            "c": "Analizar relaciones entre palabras.",
+            "d": "Asignar una posición única a cada palabra."
+          },
+          "answer": "b"
+        },
+        {
+          "question": "¿Cuál es la función del decodificador en la salida de las redes Transformers?",
+          "options": {
+            "a": "Realizar el embedding y positional encoding.",
+            "b": "Utilizar bloques atencionales.",
+            "c": "Evitar el desvanecimiento de pesos en los codificadores.",
+            "d": "Asignar probabilidades a las palabras del vocabulario."
+          },
+          "answer": "b"
+        },
+        {
+          "question": "¿Qué es GPT?",
+          "options": {
+            "a": "Un bloque atencional enmascarado.",
+            "b": "Un modelo de aprendizaje supervisado.",
+            "c": "Un modelo generativo del lenguaje basado en transformadores.",
+            "d": "Una técnica de embedding para palabras."
+          },
+          "answer": "c"
+        },
+        {
+          "question": "¿Cómo se entrena previamente un modelo GPT?",
+          "options": {
+            "a": "Con un corpus de texto enorme y diverso.",
+            "b": "Con ajuste fino discriminativo.",
+            "c": "Con un conjunto de datos pequeño y específico.",
+            "d": "Aplicando enmascaramiento a las palabras."
+          },
+          "answer": "a"
+        },
+        {
+          "question": "¿Qué tipo de arquitecturas son los modelos GPT?",
+          "options": {
+            "a": "Redes neuronales recurrentes.",
+            "b": "Redes neuronales convolucionales.",
+            "c": "Redes neuronales de aprendizaje profundo.",
+            "d": "Redes neuronales basadas en bloques residuales."
+          },
+          "answer": "c"
+        },
+        {
+          "question": "¿Qué función tiene la capa lineal en la salida de las redes Transformers?",
+          "options": {
+            "a": "Realizar el embedding y positional encoding.",
+            "b": "Asignar probabilidades a las palabras del vocabulario.",
+            "c": "Analizar relaciones entre palabras.",
+            "d": "Evitar el desvanecimiento de pesos en los codificadores."
+          },
+          "answer": "b"
+        },
+        {
+          "question": "¿Qué información utiliza el decodificador en la salida de las redes Transformers?",
+          "options": {
+            "a": "Solo la información proveniente de los codificadores.",
+            "b": "Solo la información generada secuencialmente.",
+            "c": "La información proveniente de los codificadores y la generada secuencialmente.",
+            "d": "Ninguna de las anteriores."
+          },
+          "answer": "c"
+        },
+        {
+          "question": "¿Qué asigna probabilidades a las palabras del vocabulario en la salida de las redes Transformers?",
+          "options": {
+            "a": "El embedding.",
+            "b": "La capa lineal.",
+            "c": "La función softmax.",
+            "d": "Los bloques atencionales."
+          },
+          "answer": "c"
+        },
+        {
+          "question": "¿Cuál es la tarea principal de los modelos GPT después de ser entrenados previamente?",
+          "options": {
+            "a": "Realizar ajuste fino discriminativo.",
+            "b": "Centrarse en una tarea específica.",
+            "c": "Generar embeddings para palabras.",
+            "d": "Evitar el desvanecimiento de pesos."
+          },
+          "answer": "b"
+        }
+      ]      
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "question": "¿Cuál es el propósito principal de utilizar la Transformada Rápida de Fourier (FFT) en el análisis de señales en el dominio del tiempo?",
+        "options": {
+            "a": "Descomponer una señal en sus componentes de frecuencia",
+            "b": "Medir la velocidad de una señal",
+            "c": "Analizar la forma física de una señal",
+            "d": "Convertir una señal de audio a texto"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "¿Cómo se diferencia la inteligencia de enjambre de la inteligencia convencional?",
+        "options": {
+            "a": "Ambas se basan en un enfoque centralizado.",
+            "b": "La inteligencia convencional se centra en la coordinación descentralizada.",
+            "c": "La inteligencia de enjambre se fundamenta en un único controlador.",
+            "d": "La inteligencia de enjambre se caracteriza por la coordinación descentralizada."
+        },
+        "answer": "d"
+    },
+    {
+        "question": "¿Cuál es la función de la etapa de entrada en las redes Transformers?",
+        "options": {
+            "a": "Realizar el embedding y positional encoding.",
+            "b": "Utilizar bloques atencionales en el decodificador.",
+            "c": "Aplicar capas lineales en el decodificador.",
+            "d": "Evitar el desvanecimiento de pesos en los codificadores."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "¿Cómo se puede abordar el desafío del consentimiento informado continuo en el desarrollo de la inteligencia artificial en medicina?",
+        "options": {
+            "a": "Implementando un sistema de interpretación",
+            "b": "Estableciendo un proceso de información continua",
+            "c": "Reducción de la opacidad",
+            "d": "Aumentando la velocidad de procesamiento"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "¿Cuántas capas tiene la red neuronal basada en Space Transformer?",
+        "options": {
+            "a": "48 capas",
+            "b": "72 capas",
+            "c": "36 capas",
+            "d": "60 capas"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "¿Qué contribuye a que la IA pueda proporcionar un diagnóstico en menos tiempo?",
+        "options": {
+            "a": "Opacidad",
+            "b": "Abundancia de datos",
+            "c": "Experiencia médica",
+            "d": "Limitaciones en el procesamiento"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Describe 3 beneficios que aporta AutoML.",
+        "options": {
+            "a": "Aumenta errores manuales, reduce tiempos de despliegue, reduce la precisión",
+            "b": "Automatiza procesos, reduce errores manuales, desarrolla algoritmos sin conocimientos de alto nivel",
+            "c": "Aumenta la complejidad, reduce la precisión, acelera la investigación",
+            "d": "Incrementa tiempos de despliegue, automatiza procesos, reduce la precisión"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "¿Qué 5 requisitos deben cumplir un vehículo autónomo (según el manual Springer Handbook of Robotics)?",
+        "options": {
+            "a": "Información de movimiento, estado del entorno, acceso a fuentes externas, información sobre el conductor y pasajeros, sistema de comunicación interna.",
+            "b": "Sensores de temperatura, control de tracción, sistema de navegación, cámara de respaldo, sistema de entretenimiento.",
+            "c": "Velocidad máxima, consumo de combustible, capacidad de carga, emisiones de gases, dimensiones exteriores.",
+            "d": "Ruedas de repuesto, sistema de frenado ABS, espejos retrovisores, sistema de iluminación, airbags."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "¿Cuál es la principal ventaja del proyecto OpenPilot en términos de compatibilidad de vehículos?",
+        "options": {
+            "a": "Solo es compatible con vehículos de lujo.",
+            "b": "Es compatible con más de 250 modelos de coches comerciales.",
+            "c": "Solo es compatible con vehículos eléctricos.",
+            "d": "Solo es compatible con vehículos de fabricación reciente."
+        },
+        "answer": "b"
+    }
+]
