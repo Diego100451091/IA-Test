@@ -64,7 +64,7 @@
             "question": "¿Qué relación existe entre AutoML y metodologías de Machine Learning como CRISP-DM?",
             "options": {
                 "a": "Son competidores en el campo de Machine Learning",
-                "b": "AutoML automatiza procesos de CRISP-DM, no hay relación",
+                "b": "AutoML automatiza procesos de CRISP-DM",
                 "c": "Ambos buscan prevenir fraudes en transacciones",
                 "d": "AutoML utiliza modelos de CRISP-DM como base"
             },
@@ -307,16 +307,6 @@
     ],
     "IA & Música": [
         {
-            "question": "¿En qué ámbitos podemos ver la IA involucrada en la industria musical?",
-            "options": {
-                "a": "Reconocimiento de colores",
-                "b": "Recomendación musical",
-                "c": "Análisis de alimentos",
-                "d": "Estudio geológico"
-            },
-            "answer": "b"
-        },
-        {
             "question": "¿Cuál es el propósito principal de utilizar la Transformada Rápida de Fourier (FFT) en el análisis de señales en el dominio del tiempo?",
             "options": {
                 "a": "Descomponer una señal en sus componentes de frecuencia",
@@ -497,16 +487,6 @@
                 "d": "Mejor adaptabilidad"
             },
             "answer": "b"
-        },
-        {
-            "question": "¿Cuál es uno de los principales problemas asociados a la fuerte inversión en la IA y la robótica?",
-            "options": {
-                "a": "Rentabilidad garantizada",
-                "b": "Escasez de recursos",
-                "c": "Falta de innovación",
-                "d": "Incompatibilidad tecnológica"
-            },
-            "answer": "a"
         }
     ],
     "Inteligencia de Enjambre": [
@@ -536,9 +516,9 @@
                 "a": "Los sistemas expertos se adaptan dinámicamente al entorno.",
                 "b": "La inteligencia de enjambre se basa en reglas y conocimientos específicos.",
                 "c": "Ambos utilizan generaciones discretas en su funcionamiento.",
-                "d": "La inteligencia de enjambre es colaborativa, mientras que los sistemas expertos no."
+                "d": "Los sistemas expertos usan conocimientos específicos dentro de un dominio particular mientras que la inteligencia de enjambre se adapta de manera dinámica a los cambios del entorno."
             },
-            "answer": "b"
+            "answer": "d"
         },
         {
             "question": "¿En qué se diferencia la Inteligencia de enjambre de las redes neuronales artificiales (RNA)?",
@@ -618,11 +598,6 @@
           "answer": "b"
         },
         {
-          "question": "En la detección de manipulaciones, ¿qué son los métodos ciegos?",
-          "options": {"a": "Métodos que no requieren conocimiento previo sobre el origen o historia del medio", "b": "Métodos que necesitan información previa sobre el medio", "c": "Métodos visuales", "d": "Métodos de manipulación"},
-          "answer": "a"
-        },
-        {
           "question": "¿Cómo se detectan los Deepfakes?",
           "options": {"a": "Mediante el análisis de colores en las imágenes", "b": "A través de la detección de manipulaciones ciegas", "c": "Usando arquitecturas basadas en GAN", "d": "Con métodos que resaltan fallos en la generación de imágenes"},
           "answer": "d"
@@ -650,7 +625,7 @@
         {
           "question": "¿Qué diferencia a una ResNet de otras redes de neuronas?",
           "options": {"a": "Utiliza solo valores residuales", "b": "No utiliza capas residuales", "c": "Diferencia sus capas en tipos", "d": "No utiliza la capa SoftMax"},
-          "answer": "c"
+          "answer": "a"
         },
         {
           "question": "¿Cuál es la función principal de la capa SoftMax en una ResNet?",
