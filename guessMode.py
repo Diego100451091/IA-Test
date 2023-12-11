@@ -2,7 +2,7 @@ import sys
 import random
 from utils import clear_terminal, get_exit, print_question
 from terminalPrints import print_title, print_colored_text, print_progress
-from IO import write_json_file
+from IO import write_json_file, append_json_file
 from settings import get_settings
 
 
@@ -23,7 +23,7 @@ def guess_mode(questions):
         print_progress(status_vector)
 
         if (len(remaining_questions) == 0):
-            print("Ya se han mostrado todas las palabras")
+            print("Ya se han mostrado todas las preguntas")
             break
 
         question = remaining_questions.pop(random.randrange(len(remaining_questions)))
@@ -39,6 +39,7 @@ def guess_mode(questions):
             print(" - La opción correcta era: ", question["answer"])
             status_vector[status_index] = -1
             wrong_questions.append(question)
+            append_json_file("wrong_questions.json", question)
 
         status_index += 1
 
@@ -46,7 +47,6 @@ def guess_mode(questions):
             break
 
     show_wrong_questions(wrong_questions)
-    write_json_file("wrong_questions.json", wrong_questions)
 
 def get_user_answer():
     while True:

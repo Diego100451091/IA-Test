@@ -18,7 +18,7 @@ def study_mode(dictionary):
         print_progress(status_vector)
         
         if (len(remaining_questions) == 0):
-            print("Ya se han mostrado todas las palabras")
+            print("Ya se han mostrado todas las preguntas")
             break
 
         question = remaining_questions.pop(random.randrange(len(remaining_questions)))

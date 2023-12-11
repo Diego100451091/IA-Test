@@ -33,6 +33,25 @@ def write_json_file(filepath, data):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+def append_json_file(filepath, data):
+    """
+    Append data to a JSON file at the specified filepath.
+
+    Args:
+        filepath (str): The path to the file to write.
+        data (dict): The data to write to the file.
+
+    Returns:
+        None
+    """
+    oldData = read_json_file(filepath)
+    if oldData is None:
+        oldData = []
+    oldData.append(data)
+
+    write_json_file(filepath, oldData)
+
+
 def delete_file(filepath):
     """
     Deletes a file at the specified filepath.

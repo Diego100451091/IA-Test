@@ -29,7 +29,7 @@ def main():
             if (wrong_dict != None):
                 guess_mode(wrong_dict)
             else:
-                print("No hay registro de palabras falladas")
+                print("No hay registro de preguntas falladas")
                 getpass.getpass("Pulsa ENTER para continuar.")
         elif (option == "4"):
             delete_file("wrong_questions.json")
